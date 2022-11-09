@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "segoe ui", roboto, oxygen, ubuntu, cantarell, "fira sans", "droid sans", "helvetica neue", Arial, sans-serif;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+body {
+    background-color: #F5F5DC;
+    margin: 0;
+}
+.navtop {
+    background-color: #B19973;
+    height: 70px;
+    width: 100%;
+    border: 0;
+}
+.navtop div {
+    display: flex;
+    margin: 0 auto;
+    width: 1000px;
+    height: 100%;
+}
+.navtop div h1, .navtop div a {
+    display: inline-flex;
+    align-items: center;
+}
+.navtop div h1 {
+    flex: 1;
+    font-size: 24px;
+    padding: 0;
+    margin: 0;
+    color: black;
+    font-weight: normal;
+  font-weight: bold;
+}
+.navtop div a {
+    padding: 0 20px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.6);
+}
+.navtop div a i {
+    padding: 2px 8px 0 0;
+}
+.navtop div a:hover {
+  transition: 0.2s;
+  color: black;
+  border-bottom: 2px solid black;
+}
+
+.startm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 10%;
+}
+.tez {
+    width: 10%;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #38b673;
+    font-weight: bold;
+    font-size: 14px;
+    color: #FFFFFF;
+    padding: 10px 15px;
+    margin: 15px 0;
+}
+.tez:hover {
+    background-color: #32a367;
+}
+
+.tampil{
+    display: flex;
+    flex-direction: row;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.baris{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+}
+
+.hapus {
+    display: inline-flex;
+  	text-align: right;
+  	text-decoration: none;
+  	color: #FFFFFF;
+  	padding: 12px;
+    margin: 5px;
+    background-color: #b73737;
+}
+.hapus:hover {
+    background-color: #a33131;
+}
+
+.forms{
+    padding: 3% 24%;
+}
+
+.sus {
+    display: block;
+    background-color: #38b673;
+    border: 0;
+    font-weight: bold;
+    font-size: 16px;
+    color: #FFFFFF;
+    cursor: pointer;
+    width: 200px;
+    padding: 10px;
+    margin-top: 15px;
+}
+.sus:hover {
+    background-color: #32a367;
+}
+
+.content-delete{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-delete{
+    text-decoration: none;
+}
